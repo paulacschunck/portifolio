@@ -1,7 +1,79 @@
 header {
-  background-color: burlywood;
+  background-color: #deb887 ;
+  padding: 20px 0;
 }
 
+.box {
+	position: relative;
+	width: 940px;
+  height: 150px ;
+	margin: 0 auto;
+  padding: auto;
+}
+.logopreto {
+  width: 265px ;
+  height: 70px;
+}
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
 footer {
-  background-color: bisque;
+  background-color: #8b7d6b ;
+  color: #f3f2f0;
+}
+.casa {
+  font-size: 20px;
+  margin-left: 30px;
+  text-align: center;
+}
+.rua {
+  font-size: 18px;
+  margin-left: 30px;
+  text-align: center;
+}
+.centro {
+  font-size: 18px;
+  margin-left: 30px;
+  text-align: center;
+}
+.cep {
+  font-size: 18px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.bilheteria {
+  font-size: 18px;
+  margin-left: 30px;
+  text-align: center;
+}
+.emailcontato{
+  font-size: 18px;
+  margin-left: 30px;
+  text-align: center;
+}
+.copyright {
+  font-size: 18px;
+  margin-left: 30px;
+  text-align: center;
 }
